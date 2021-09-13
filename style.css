@@ -1,0 +1,86 @@
+body
+{
+  color: white;
+  background-image:url("gesture.jpg");
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name1 ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+#title{
+  letter-spacing:7px;
+  font-size:20px;
+  border-radius: 20px;
+  
+}
+label{
+  font-size:20px;
+  color:green;
+  background-color: white;
+  border-radius: 20px;
+  
+}
+#title2{
+  background-color: blueviolet;
+}
+
+#button {
+  position: relative;
+  margin: 0.5em;
+  border: solid 5px transparent;
+  background: orange;
+}
+
+#button:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  border: solid 10px blueviolet;
+  margin: -15px;
+  z-index: -1;
+  transition: transform 0.6s linear;
+  transform: scale(0.97, 0.93);
+}
+
+#button:hover::after { transform: scale(1,1); }
+#title {
+  position: relative;
+  margin: 0.5em;
+  border: solid 5px transparent;
+  background: orange;
+}
+
+#title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  border: solid 10px Brown;
+  margin: -15px;
+  z-index: -1;
+  transition: transform 0.6s linear;
+  transform: scale(0.97, 0.93);
+}
+
+#title:hover::after { transform: scale(1,1); }
